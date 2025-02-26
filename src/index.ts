@@ -43,3 +43,6 @@ const plugin: JupyterFrontEndPlugin<NotebookPanel.IContentFactory> = {
 };
 
 export default plugin;
+export * from './factory';
+export * from './cell';
+export * from './choicecell';
